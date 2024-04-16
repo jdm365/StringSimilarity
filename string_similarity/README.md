@@ -6,7 +6,7 @@ for performance gains over pure python implementations.
 
 <h5>Example</h5>
 
-```
+```python
 from string_sim_metrics import *
 
 x = 'antidisestablishmentarianism'
@@ -28,7 +28,7 @@ stdout
 
 Performance difference vs an identical implementation in pure python.
 
-```
+```python
 from string_sim_metrics import *
 from time import perf_counter
 
@@ -73,7 +73,7 @@ stdout
 
 Additional parameters for jarowinkler sim.
 
-```
+```python
 x = 'antidisestablishmentarianism'
 y = 'Hippopotomonstrosesquippedaliophobia'
 
@@ -84,7 +84,7 @@ Standard Jaccard implementation.
 **NOTE: Performance in python is equally good if you use instersection and union built
         in functions. They are already compiled.
         
-```
+```python
 x = 'antidisestablishmentarianism'
 y = 'Hippopotomonstrosesquippedaliophobia'
 

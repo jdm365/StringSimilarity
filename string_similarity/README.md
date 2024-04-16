@@ -22,7 +22,7 @@ wlev_dist = weighted_levenshtein_distance(
 print(wlev_dist)
 
 stdout
-  39
+39
 ```
 
 
